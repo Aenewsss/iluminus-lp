@@ -1,0 +1,160 @@
+:root {
+    --main-color: #EE7C18;
+    --secondary: #F9F9F9;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    background-color: white !important;
+    color: white !important;
+}
+
+img {
+    position: unset !important;
+    height: unset !important;
+    top: unset !important;
+    bottom: unset !important;
+    left: unset !important;
+    right: unset !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: unset !important;
+}
+
+.btn-main {
+    background-color: var(--main-color) !important;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.text-main {
+    color: var(--main-color) !important;
+}
+
+.feedback-card {
+    max-width: 800px;
+}
+
+.home-top {
+    background: center / cover no-repeat url('/images/background-topo.png');
+    height: 100vh;
+}
+
+.img-differentials{
+    max-width: 140px;
+    max-height: 120px;
+}
+
+.bg-sec {
+    background-color: var(--secondary) !important;
+}
+
+.mw-300 { max-width: 300px;}
+
+.line-after {
+    position: relative;
+}
+
+.line-after::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    bottom: -10px;
+    left: 4px;
+}
+
+.scale {
+    transition: .5s ease !important;
+}
+
+.scale:hover {
+    transform: scale(1.1) !important;
+}
+
+.img-top {
+    max-width: 280px !important;
+    bottom: -140px !important;
+}
+
+.button-public {
+    bottom: -20px;
+}
+
+.animated-slide {
+    animation: slideToLeft 30s linear infinite;
+}
+
+.collapse:not(.show) {
+    display: unset !important;
+}
+
+.navbar-collapse {
+    flex-basis: unset !important;
+    flex-grow: unset !important;
+}
+
+.btn-red {
+    background-color: red !important;
+}
+
+.club-btn {
+    animation: club 4s linear infinite;
+}
+
+@keyframes club {
+    0% {
+        transform: translateY(0);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0);
+    }
+
+    50% {
+        transform: translateY(10px);
+        box-shadow: 2px 2px 4px rgb(255, 180, 45);
+    }
+
+    100% {
+        transform: translateY(0);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0);
+    }
+}
+
+@keyframes slideToLeft {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
