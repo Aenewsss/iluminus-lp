@@ -4,7 +4,7 @@ import LeadForm from "./Form/LeadForm";
 const HomeTop = () => {
     return (
         <section className="home-top pt-5 position-relative">
-            <div className="container d-flex flex-column align-items-center pt-5 mt-5 justify-content-center ">
+            <div className="container d-flex flex-column align-items-center pt-md-5 mt-md-5 justify-content-center ">
                 <div className="row">
                     <div className="col-md-12">
                         <h2 className="text-main text-uppercase fst-italic mb-0 ">Deixe o sol pagar a conta</h2>
