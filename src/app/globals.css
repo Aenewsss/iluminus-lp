@@ -69,7 +69,7 @@ a {
     height: 100vh;
 }
 
-.img-differentials{
+.img-differentials {
     max-width: 140px;
     max-height: 120px;
 }
@@ -78,7 +78,9 @@ a {
     background-color: var(--secondary) !important;
 }
 
-.mw-300 { max-width: 300px;}
+.mw-300 {
+    max-width: 300px;
+}
 
 .line-after {
     position: relative;
@@ -98,28 +100,29 @@ a {
     transition: .5s ease !important;
 }
 
-.section-heading, .section-heading-left{
+.section-heading,
+.section-heading-left {
     position: relative;
 }
 
-.section-heading::after{
+.section-heading::after {
     position: absolute;
     content: '';
     height: 4px;
     width: 120px;
     background-color: var(--main-color);
-    bottom: 0;
+    bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.section-heading-left::after{
+.section-heading-left::after {
     position: absolute;
     content: '';
     height: 4px;
     width: 120px;
     background-color: var(--main-color);
-    bottom: 0;
+    bottom: -10px;
     left: 20px;
 }
 
@@ -155,6 +158,18 @@ a {
 
 .club-btn {
     animation: club 4s linear infinite;
+}
+
+@media screen and (max-width: 992px) {
+    .line-after::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        bottom: -10px;
+        left: 4px;
+    }
 }
 
 @keyframes club {

@@ -34,7 +34,7 @@ const Contact = () => {
                             <h5 className="fw-light text-black mb-0">(61) 4042-7830</h5>
                         </Link>
 
-                        <div className="me-5 mt-5 pb-2">
+                        <div className="me-md-5 mt-5 pb-2">
                             <ReadySave />
                         </div>
 

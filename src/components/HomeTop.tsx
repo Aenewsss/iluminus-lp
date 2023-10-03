@@ -17,7 +17,7 @@ const HomeTop = () => {
                         <p>Preencha o formulário e comece a economizar já na próxima fatura!</p>
                         <LeadForm />
                     </div>
-                    <div className="col-md-6 d-flex align-items-center justify-content-end">
+                    <div className="col-md-6 d-md-flex align-items-center justify-content-end d-none">
                         <Image className="mw-300" fill src="/iluminus-logo-white.png" alt="Logo Iluminus Transparente" />
                     </div>
                 </div>

@@ -20,9 +20,9 @@ const Footer = () => {
                             </div>
                         </Link>
                     </div>
-                    <div className="col-md-4 d-flex d-flex align-items-center justify-content-center">
+                    <div className="col-md-4 d-flex d-flex align-items-center justify-content-center mt-md-0 mt-4">
                         <div className="text-black ">
-                            <h6 className="text-main fw-bold mb-0">REDES SOCIAIS</h6>
+                            <h6 className="text-main fw-bold mb-0 text-center">REDES SOCIAIS</h6>
                             <div className="d-flex flex-column gap-2 mt-3">
                                 <Link target="_blank" href={environments.mailLink} className="d-flex gap-2 fs-10 text-white mb-0">
                                     <Image loading="lazy" width={20} height={20} src="/icons/Email.svg" alt="Email ícone" />
