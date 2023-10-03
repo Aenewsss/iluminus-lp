@@ -8,7 +8,7 @@ const HomeTop = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <h2 className="text-main text-uppercase fst-italic mb-0 ">Deixe o sol pagar a conta</h2>
-                        <h1 className="display-1 text-white fw-bold ">
+                        <h1 className="display-2 text-white fw-bold ">
                             Descubra como economizar até <span className="text-main">95%</span> na fatura com energia solar de alta eficiência
                         </h1>
                     </div>
