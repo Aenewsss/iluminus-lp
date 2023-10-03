@@ -4,7 +4,7 @@ const Differentials = () => {
     return (
         <section className="bg-sec pt-5 pb-5" id="differentials">
             <div className="container">
-                <h2 className="text-black section-heading display-2 text-center w-100 mt-0 mt-5">Entenda os diferenciais de escolher a Ilúminus</h2>
+                <h2 className="text-black section-heading display-2 text-center w-100 mt-0">Entenda os diferenciais de escolher a Ilúminus</h2>
 
                 <div className="row mt-5 pt-5 pb-5">
                     <div className="col-md-4">

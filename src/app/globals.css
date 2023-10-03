@@ -98,6 +98,31 @@ a {
     transition: .5s ease !important;
 }
 
+.section-heading, .section-heading-left{
+    position: relative;
+}
+
+.section-heading::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 120px;
+    background-color: var(--main-color);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-heading-left::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 120px;
+    background-color: var(--main-color);
+    bottom: 0;
+    left: 20px;
+}
+
 .scale:hover {
     transform: scale(1.1) !important;
 }
