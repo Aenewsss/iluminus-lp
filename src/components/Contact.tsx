@@ -10,7 +10,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="w-100">
-                            <iframe width="100%" height="440" frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0} src="https://maps.google.com/maps?width=100%25&amp;height=440&amp;hl=en&amp;q=Irmandade%20F%C3%A9pas+(Irmandade%20F%C3%A9pas)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                            <iframe width="100%" height="440" frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0} src="https://maps.google.com/maps?width=100%25&amp;height=440&amp;hl=en&amp;q=CENTRO%20EMPRESARIAL%20VARIG%20-%2012%C2%B0%20ANDAR%20SALA%201205%20-%20ASA%20NORTE%20-%20BRAS%C3%8DLIA+(Iluminus)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                             </iframe>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ const Contact = () => {
                         <Link target="_blank" href={environments.mapsLink} className="d-flex gap-2 line-after mt-5 align-items-center pb-2">
                             <Image width={30} height={30} src="/icons/Localização.svg" alt="Ícone Localização" />
                             <h5 className="fw-light text-black mb-0">
-                                CENTRO EMPRESARIAL VARIG - 12° ANDAR <br />SALA 1205 - ASA NORTE - BRASÍLIA
+                                Centro Empresarial Varig - 12° andar <br />Sala 1205 - Asa Norte - Brasília
                             </h5>
                         </Link>
 
@@ -41,7 +41,6 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-
         </section >
     );
 }
