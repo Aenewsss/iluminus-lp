@@ -3,6 +3,7 @@ import Footer from "@components/components/Footer";
 import HomeTop from "@components/components/HomeTop";
 import Differentials from "@components/components/Differentials";
 import Contact from "@components/components/Contact";
+import WhatsAppFixed from "@components/components/WhatsAppFixed";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Feedbacks />
       <Contact />
       <Footer />
+      <WhatsAppFixed />
     </main>
   )
 }

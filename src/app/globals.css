@@ -160,6 +160,13 @@ a {
     animation: club 4s linear infinite;
 }
 
+.whats-fixed {
+    bottom: 20px;
+    right: 20px;
+    width: clamp(50px, 4vw, 100px);
+    animation: whatsFloating 4s linear infinite;
+}
+
 @media screen and (max-width: 992px) {
     .line-after::after {
         content: '';
