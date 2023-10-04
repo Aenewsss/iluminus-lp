@@ -168,10 +168,27 @@ a {
     animation: whatsFloating 4s linear infinite;
 }
 
+.carousel-control-next {
+    right: -4vw !important;
+}
+
+.carousel-control-prev {
+    left: -4vw !important;
+}
+
 @media screen and (max-width: 992px) {
     .line-after::after {
       display: none;
     }
+
+    .carousel-control-next {
+        right: 0;
+    }
+    
+    .carousel-control-prev {
+        left: 0;
+    }
+    
 }
 
 @keyframes club {
