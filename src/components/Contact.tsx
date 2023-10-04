@@ -17,19 +17,19 @@ const Contact = () => {
                     <div className="col-md-6">
                         <h2 className="section-heading-left display-3 text-black w-100 mt-md-0 mt-5 mb-5 pt-0 container">Entre em contato</h2>
 
-                        <Link target="_blank" href={environments.mapsLink} className="d-flex gap-2 line-after mt-5 align-items-center pb-2">
+                        <Link target="_blank" href={environments.mapsLink} className="d-flex gap-2 line-after mt-md-5 mt-4 align-items-center pb-2">
                             <Image width={30} height={30} src="/icons/Localização.svg" alt="Ícone Localização" />
                             <h5 className="fw-light text-black mb-0">
                                 Centro Empresarial Varig - 12° andar <br className="d-md-block d-none"/>Sala 1205 - Asa Norte - Brasília
                             </h5>
                         </Link>
 
-                        <Link target="_blank" href={environments.mailLink} className="d-flex gap-2 line-after mt-5 align-items-center pb-2">
+                        <Link target="_blank" href={environments.mailLink} className="d-flex gap-2 line-after mt-md-5 mt-4 align-items-center pb-2">
                             <Image width={30} height={30} src="/icons/Email.svg" alt="Ícone Email" className="ms-2"/>
                             <h5 className="fw-light text-black mb-0">cotacao@iluminus.solar</h5>
                         </Link>
 
-                        <Link target="_blank" href={environments.whatsAppLink} className="d-flex gap-2 line-after mt-5 align-items-center pb-2">
+                        <Link target="_blank" href={environments.whatsAppLink} className="d-flex gap-2 line-after mt-md-5 mt-4 align-items-center pb-2">
                             <Image width={30} height={30} src="/icons/WhatsApp.svg" alt="Ícone WhatsApp" className="ms-2"/>
                             <h5 className="fw-light text-black mb-0">(61) 4042-7830</h5>
                         </Link>
