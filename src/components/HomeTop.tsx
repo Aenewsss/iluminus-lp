@@ -14,7 +14,7 @@ const HomeTop = () => {
                     </div>
 
                     <div className="col-md-6 mt-4">
-                        <p>Preencha o formulário e comece a economizar já na próxima fatura!</p>
+                        <p>Preencha o formulário e descubra o quanto vai economizar já na próxima fatura!</p>
                         <LeadForm />
                     </div>
                     <div className="col-md-6 d-md-flex align-items-center justify-content-end d-none">
