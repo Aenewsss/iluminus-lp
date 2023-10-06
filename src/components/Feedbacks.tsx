@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Family from "./Buttons/Family";
+import ReadySave from "./Buttons/ReadySave";
 
 const Feedbacks = () => {
     return (
@@ -89,7 +88,7 @@ const Feedbacks = () => {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
-                <Family />
+                <ReadySave />
             </div>
         </section>
     );

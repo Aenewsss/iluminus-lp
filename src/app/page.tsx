@@ -11,7 +11,7 @@ export default function Home() {
       <HomeTop />
       <Differentials />
       <Feedbacks />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
       <WhatsAppFixed />
     </main>
