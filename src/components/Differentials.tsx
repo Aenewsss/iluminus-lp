@@ -46,6 +46,7 @@ const Differentials = () => {
 
                     <div className="col-md-3"></div>
                     <div className="col-md-6 mt-5">
+                        <p className="text-dark text-center">Clique no botão abaixo e deixe o sol pagar sua conta já na próxima fatura!</p>
                         <ReadySave />
                     </div>
                     <div className="col-md-3"></div>

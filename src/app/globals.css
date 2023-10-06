@@ -168,6 +168,10 @@ a {
     animation: whatsFloating 4s linear infinite;
 }
 
+.images-public {
+    width: 25%;
+}
+
 .carousel-control-next {
     right: -4vw !important;
 }
@@ -188,7 +192,9 @@ a {
     .carousel-control-prev {
         left: 0;
     }
-    
+    .images-public {
+        width: 100%;
+    }
 }
 
 @keyframes club {
