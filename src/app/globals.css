@@ -67,7 +67,7 @@ a {
 
 .home-top {
     background: center / cover no-repeat url('/images/background-topo.png');
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .img-differentials {
