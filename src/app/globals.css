@@ -22,14 +22,11 @@
     width: 4px;
 }
 
-html{
-    background-color: black;
-}
-
 html,
 body {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background-color: black;
 }
 
 body {
