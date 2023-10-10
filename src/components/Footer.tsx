@@ -15,8 +15,8 @@ const Footer = () => {
                         <Link target="_blank" href={environments.mapsLink} className="d-flex align-items-center gap-2 mt-3">
                             <Image loading="lazy" width={20} height={20} src="/icons/Localização.svg" alt="Ícone localização" />
                             <div className="text-black">
-                                <p className="mb-0 fs-10">CENTRO EMPRESARIAL VARIG - 12°</p>
-                                <p className="fs-10 mb-0">ANDAR - SALA 1205 - ASA NORTE - BRASÍLIA</p>
+                                {/* <p className="mb-0 fs-10">CENTRO EMPRESARIAL VARIG - 12°</p> */}
+                                <p className="fs-10 mb-0"> ASA NORTE - BRASÍLIA</p>
                             </div>
                         </Link>
                     </div>
