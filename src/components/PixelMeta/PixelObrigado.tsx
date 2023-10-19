@@ -1,15 +1,27 @@
 'use client'
 
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import Script from "next/script"
 import { useEffect } from "react";
 
 let time = 0
 
-
 const PixelObrigado = () => {
 
     const pathname = usePathname()
+    const router = useRouter()
+    const params = useSearchParams()
+
+    useEffect(() => {
+        if (window != undefined && params.get('lead')) {
+            router.push('/obrigado?reloaded')
+            setTimeout(() => {
+                window.location.reload()
+            }, 300)
+        }
+    }, [pathname]);
+
+
 
     if (time == 0 && pathname == '/obrigado') {
         time = 1
