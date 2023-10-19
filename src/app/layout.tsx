@@ -32,7 +32,7 @@ export default function RootLayout({
         <meta name="facebook-domain-verification" content="vxts5yasipoxrikgnmx65iqxj197nz" />
 
         {/* Meta Pixel Code  */}
-        <Script id="fb-pixel" 
+        <Script id="fb-pixel"
           dangerouslySetInnerHTML={{
             __html: `
               !function(f,b,e,v,n,t,s)
@@ -49,8 +49,7 @@ export default function RootLayout({
           }}
         />
         <noscript>
-          {/* @ts-ignore */}
-          <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2005714673161741&ev=PageView&noscript=1" /></noscript>
+          <img height="1" width="1" style={{ display: 'none' }} src="https://www.facebook.com/tr?id=2005714673161741&ev=PageView&noscript=1" /></noscript>
         {/* End Meta Pixel Code  */}
       </head>
 
