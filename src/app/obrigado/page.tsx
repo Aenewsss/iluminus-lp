@@ -8,9 +8,9 @@ export default function Thanks() {
             <div className="d-flex flex-column">
                 <h1 className="fw-medium display-2 ">Agradecemos por <br /> escolher economizar!</h1>
 
-                <span className="mt-5">Já pensou em falar com um dos nossos consultores especializados para começar a economizar agora?</span>
+                <span className="mt-5">Seus dados foram armazenados e em breve entraremos em contato! Se você quiser falar com nosso atendimento agora, clique no botão abaixo.</span>
                 <a href={environments.whatsAppLink} target="_blank" className="mt-2 btn btn-main text-white scale fs-3 d-flex gap-2 justify-content-center align-items-center ps-5 pe-5 w-100">
-                    <span>Sim, estou interessado.</span>
+                    <span>Falar com nosso atendimento agora</span>
                 </a>
             </div>
 
