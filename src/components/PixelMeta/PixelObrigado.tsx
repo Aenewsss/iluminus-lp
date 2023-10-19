@@ -6,7 +6,7 @@ let time = 0
 const PixelObrigado = () => {
 
     if (time == 0) {
-        time++
+        time = 1
         return (
             <>
                 {/* Meta Pixel Code  */}

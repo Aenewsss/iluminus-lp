@@ -2,16 +2,15 @@ import Script from "next/script"
 
 let time = 0
 
-
 const PixelMeta = () => {
 
     if (time == 0) {
-        time++
+        time = 1
         return (
             <>
                 {/* Meta Pixel Code  */}
                 <Script id="fb-pixel"
-                    strategy="beforeInteractive"
+                    strategy="lazyOnload"
                     dangerouslySetInnerHTML={{
                         __html: `
                         !function(f,b,e,v,n,t,s)
