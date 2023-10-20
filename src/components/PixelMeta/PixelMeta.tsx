@@ -1,3 +1,4 @@
+'use client'
 
 import { usePathname } from "next/navigation"
 import Script from "next/script"
@@ -5,7 +6,10 @@ import Script from "next/script"
 let time = 0
 
 const PixelMeta = () => {
-    if (time == 0) {
+
+    const pathname = usePathname()
+
+    if (time == 0 && !pathname.includes('obrigado')) {
         time = 1
         return (
             <>
