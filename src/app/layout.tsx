@@ -2,6 +2,7 @@ import PixelMeta from "@components/components/PixelMeta/PixelMeta"
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import PixelObrigado from "@components/components/PixelMeta/PixelObrigado"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,7 +32,7 @@ export default function RootLayout({
         <meta name="facebook-domain-verification" content="vxts5yasipoxrikgnmx65iqxj197nz" />
 
         <PixelMeta />
-
+        <PixelObrigado />
       </head>
 
       <body className={inter.className}>{children}</body>

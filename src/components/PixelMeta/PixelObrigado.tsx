@@ -12,38 +12,35 @@ const PixelObrigado = () => {
     const router = useRouter()
     const params = useSearchParams()
 
-    useEffect(() => {
-        if (window != undefined && params.get('lead')) {
-            router.push('/obrigado?reloaded')
-            setTimeout(() => {
-                window.location.reload()
-            }, 300)
-        }
-    }, [pathname]);
+    // useEffect(() => {
+    //     if (window != undefined && params.get('lead')) {
+    //         router.push('/obrigado?reloaded')
+    //         setTimeout(() => {
+    //             window.location.reload()
+    //         }, 300)
+    //     }
+    // }, [pathname]);
 
-
-
-    if (time == 0 && pathname == '/obrigado') {
-        time = 1
+    if (pathname.includes('obrigado')) {
         return (
             <>
                 {/* Meta Pixel Code  */}
-                <Script id="fb-pixel"
-                    strategy="beforeInteractive"
+                <Script id="fb-pixel-lead"
+                    strategy="lazyOnload"
                     dangerouslySetInnerHTML={{
                         __html: `
-                        !function(f,b,e,v,n,t,s)
-                        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                        n.queue=[];t=b.createElement(e);t.async=!0;
-                        t.src=v;s=b.getElementsByTagName(e)[0];
-                        s.parentNode.insertBefore(t,s)}(window, document,'script',
-                        'https://connect.facebook.net/en_US/fbevents.js');
-                        fbq('init', '2005714673161741');
-                        fbq('track', 'PageView');
-                        fbq('track', 'Lead');
-                    `
+                            !function(f,b,e,v,n,t,s)
+                            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                            n.queue=[];t=b.createElement(e);t.async=!0;
+                            t.src=v;s=b.getElementsByTagName(e)[0];
+                            s.parentNode.insertBefore(t,s)}(window, document,'script',
+                            'https://connect.facebook.net/en_US/fbevents.js');
+                            fbq('init', '2005714673161741');
+                            fbq('track', 'PageView');
+                            fbq('track', 'Lead');
+                        `
                     }
                     }
                 />
@@ -55,6 +52,7 @@ const PixelObrigado = () => {
         );
     }
     return null
+
 
 }
 
