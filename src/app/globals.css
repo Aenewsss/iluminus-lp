@@ -65,6 +65,17 @@ a {
     background-color: #ee7c1871;
 }
 
+.text-shadow-location{
+    color: #F5881F;
+    text-align: center;
+    text-shadow: 0px 1px 4px #F5881F;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 .home-top {
     background: center / cover no-repeat url('/images/background-topo.png');
     min-height: 100vh;

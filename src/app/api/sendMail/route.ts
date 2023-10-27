@@ -4,7 +4,6 @@ import { ILead } from "@components/interfaces";
 
 export async function POST(request: Request) {
     const { lead }: { lead: ILead } = await request.json()
-
     sgMail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY!)
     const msg = {
         from: process.env.NEXT_PUBLIC_SENDGRID_FROM_EMAIL as string,
