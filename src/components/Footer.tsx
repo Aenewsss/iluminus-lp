@@ -26,14 +26,14 @@ const Footer = () => {
                             <div className="d-flex flex-column gap-2 mt-3">
                                 <Link target="_blank" href={environments.mailLink} className="d-flex gap-2 fs-10 text-white mb-0">
                                     <Image loading="lazy" width={20} height={20} src="/icons/Email.svg" alt="Email ícone" />
-                                    <span className="text-black">cotacao@iluminus.solar</span>
+                                    <span className="text-black">propostas@iluminusdf.com.br</span>
                                 </Link>
                                 <Link target="_blank" href={environments.whatsAppLink} className="d-flex gap-2 fs-10 text-white mb-0">
-                                    <Image loading="lazy" width={20} height={20} src="/icons/whatsapp.svg" alt="whatsapp ícone" />
+                                    <Image loading="lazy" width={20} height={20} src="/icons/WhatsApp.svg" alt="whatsapp ícone" />
                                     <span className="text-black">+55 61 3686-6806</span>
                                 </Link>
                                 <Link target="_blank" href={environments.whatsAppLink} className="d-flex gap-2 fs-10 text-white mb-0">
-                                    <Image loading="lazy" width={20} height={20} src="/icons/whatsapp.svg" alt="whatsapp ícone" />
+                                    <Image loading="lazy" width={20} height={20} src="/icons/WhatsApp.svg" alt="whatsapp ícone" />
                                     <span className="text-black">+55 61 99193-8486</span>
                                 </Link>
                             </div>
